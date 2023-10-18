@@ -17,7 +17,7 @@ export const Guide = () => {
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A minima unde ex, qui nihil placeat exercitationem reprehenderit deleniti fuga similique ut optio! Quasi rem quae aliquam excepturi vel facilis id?</p>
         </div>
       </div>
-      <div className="flexCenter max-container relative w-ful">
+      <div className="flexCenter max-container relative w-full">
         <Image
           src="/boat.png"
           alt="boat"
@@ -26,7 +26,7 @@ export const Guide = () => {
           className="w-full object-cover object-center 2xl:rounded-5xl"
         />
 
-        <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%]lg:top-20">
+        <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
           <Image
             src="/meter.svg"
             alt="meter"
